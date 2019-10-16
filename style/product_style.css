@@ -1,0 +1,84 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu {
+  float: left;
+}
+
+.menu a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #2A282B;
+  font-family: 'Ubuntu';
+  font-size: 17px;
+}
+
+.menu :hover {
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+h4 {
+  font-family: 'Ubuntu';
+  font-size: 57px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 'Ubuntu';
+  font-size: 37px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: 'Ubuntu';
+}
+
+li p {
+  padding-left: 15px;
+}
+
+.left_img {
+  float: right;
+  width: 700px;
+  padding-left: 25px;
+}
+
+.right_img {
+  float: left;
+  width: 500px;
+  padding-right: 25px;
+}
+
+.description {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100px;
+  height: 74px;
+}
+
+#login {
+  float: right;
+  border-radius: 5px;
+  border: 1px solid #2A282B;
+}
+
+#login :hover {
+  color: white;
+  border-radius: 5px;
+  background: #2A282B;
+  font-size: 17px;
+}

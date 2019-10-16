@@ -1,0 +1,111 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu {
+  float: left;
+}
+
+.menu a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #2A282B;
+  font-family: 'Ubuntu';
+  font-size: 17px;
+}
+
+th a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #2A282B;
+  font-family: 'Ubuntu';
+  font-size: 17px;
+}
+
+th a:hover {
+  text-decoration: underline;
+}
+
+.menu :hover {
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+h4 {
+  font-family: 'Ubuntu';
+  font-size: 57px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Ubuntu';
+}
+
+p {
+  font-family: 'Ubuntu';
+}
+
+#map {
+  width: 100%;
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100px;
+  height: 74px;
+}
+
+#login {
+  float: right;
+  border-radius: 5px;
+  border: 1px solid #2A282B;
+}
+
+#login :hover {
+  color: white;
+  border-radius: 5px;
+  background: #2A282B;
+  font-size: 17px;
+}
+
+#footer {
+  width: 100%;
+  background: black;
+  height: 100px;
+}
+
+.description {
+  padding: 25px;
+}
+
+table {
+  border-radius: 10px;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin: 15px;
+  font-family: 'Ubuntu';
+}
+
+td, th, tr {
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+}
+
+td, th {
+  padding: 15px;
+}
+
+td img {
+  width: 50px;
+}
